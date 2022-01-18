@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "name": "Launch Miroval Base Server",
+      "type": "node-terminal",
+      "cwd": "${workspaceFolder}/packages/base",
+      "command": "deno run --allow-all --unstable ./mod.ts"
+    }
+  ]
+}

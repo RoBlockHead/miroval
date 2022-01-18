@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "name": "ROOT",
+      "path": "../"
+    },
+    {
+      "name": "base",
+      "path": "../packages/base",
+      "deno.lint": true,
+      "deno.enable": true,
+      "deno.unstable": true,
+      "go.useLanguageServer": false,
+      "typescript.validate.enable": false,
+      "typescript.suggestionActions.enabled": false
+    },
+    {
+      "name": "conmiro",
+      "path": "../packages/conmiro",
+      "deno.enable": false,
+      "go.useLanguageServer": true
+    }
+  ],
+  "settings": {
+    "javascript.format.semicolons": "insert"
+  }
+}
